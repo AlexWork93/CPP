@@ -21,9 +21,11 @@ int nested_loops_lesson() {
 	vector<int> vec{ 2, 4, 6, 8 };
 	//----WRITE YOUR CODE BELOW THIS LINE----
 	int result{ 0 };
-	for (int i = 0; i < vec.size() - 1; i++) {
-		for (int j = i + 1; j < vec.size(); j++) {
-			result += vec.at(i) * vec.at(j);
+	if (vec.size() != 0 && vec.size() != 1) {
+		for (int i = 0; i < vec.size() - 1; i++) {
+			for (int j = i + 1; j < vec.size(); j++) {
+				result += vec.at(i) * vec.at(j);
+			}
 		}
 	}
 
