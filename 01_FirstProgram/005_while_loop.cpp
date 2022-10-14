@@ -8,7 +8,7 @@ using namespace std;
 
 //Note that you the different vectors will be tested against your code.You do not need to declare the vector of integers.vec  is the name of the vector you should use.
 
-int main() {
+int while_loop() {
 
     vector<int> vec{ 12,432,54,23,23,-499 };
     //---- WRITE YOUR CODE BELOW THIS LINE----
@@ -25,7 +25,7 @@ int main() {
 
 //Version with infinite loop
 
-int while_loop() {
+int infinite_while_loop() {
 
     vector<int> vec{ 10,14,65,23,-99 };
     //---- WRITE YOUR CODE BELOW THIS LINE----
