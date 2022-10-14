@@ -7,6 +7,24 @@ using namespace std;
 //The final result should be stored in an integer variable named count .
 
 //Note that you the different vectors will be tested against your code.You do not need to declare the vector of integers.vec  is the name of the vector you should use.
+
+int main() {
+
+    vector<int> vec{ 12,432,54,23,23,-499 };
+    //---- WRITE YOUR CODE BELOW THIS LINE----
+    int count{ 0 };
+    while (vec.size() > count && vec.at(count) != -99) {
+        count++;
+    }
+    cout << count;
+    //---- WRITE YOUR CODE ABOVE THIS LINE----
+    //---- DO NOT MODIFY THE CODE BELOW THIS LINE-----
+    return count;
+}
+
+
+//Version with infinite loop
+
 int while_loop() {
 
     vector<int> vec{ 10,14,65,23,-99 };
