@@ -17,7 +17,7 @@
 
 using namespace std;
 
-int main() {
+int using_c_style_string() {
 
 	char first_name[20] = "Bjarne";
 	char last_name[20] = "Stroustrup";
