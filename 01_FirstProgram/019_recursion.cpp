@@ -84,8 +84,3 @@ int test_function_activation_count() {
     return function_activation_count;
 }
 
-int main() {
-
-	amount_accumulated();
-	return 0;
-}
