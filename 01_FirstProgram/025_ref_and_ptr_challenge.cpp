@@ -61,7 +61,7 @@ void print_arr(int* arr, size_t arr_size) {
 }
 
 
-int main() {
-	ref_and_ptr();
-	return 0;
-}
+//int main() {
+//	ref_and_ptr();
+//	return 0;
+//}
