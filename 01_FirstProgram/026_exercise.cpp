@@ -40,6 +40,7 @@ int class_and_headers() {
 	cout << dog->speak() << endl;
 	cout << "Dogs name is " << dog->get_name() << endl;
 	delete dog;
+	return 0;
 }
 
 string Dog::speak() {
